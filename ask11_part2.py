@@ -11,7 +11,6 @@ file += '.txt'
 infile = open(file, 'r')
 list_of_words = [line.rstrip() for line in infile]
 infile.close()
-print(list_of_words)
 list_check=[]
 for word in list_of_words:
     for i in range(100):

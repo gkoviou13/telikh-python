@@ -2,6 +2,7 @@ import string
 x=input("give a sentence: ")
 list_rot13=[]
 for i in x:
+    #converting users sentence to rot 13
     if i in string.ascii_letters:
         if i in string.ascii_uppercase:
             if ord(i)>=ord('N'):
